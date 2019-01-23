@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Conditional Logic in Javascript</title>
+    <script type="text/javascript">
+
+        var someValue = 24;
+        var otherValue = 23;
+
+    /*
+        if (someValue < 30) {
+            alert("first case");
+        }
+        else if (someValue === 30) {
+            alert("second case");
+        }
+        else {
+            alert("third case");
+        }
+   */
+        //if (someValue > 20 && otherValue === 24) {
+        //    alert("fourth case")
+        //}
+
+        //if (someValue !== 24) {
+
+        //}
+
+        //someValue = false;
+
+        //if (!someValue) {
+        //    alert("sixth case");
+        //}
+
+
+        //var myResult = "";
+        //myResult = (someValue === 24) ? "equal" : "not equal";
+        //alert(myResult);
+
+        //'==' and '!=' are to be never used in javascript
+        //use '===' and '!=='
+
+        var userName = "Rimmer";
+        switch(userName)
+        {
+            case "Lister":
+                document.write("Care for a good curry");
+                break;
+            case "Rimmer":
+                document.write("Welcome back, smeg ahead");
+                break;
+            default:
+                document.write("Are you an emohawk?");
+                break;
+        }
+
+        var rightNow = new Date();
+        var currentHour = rightNow.getHours();
+
+        switch (true) {
+            case (currentHour > 8 && currentHour < 12):
+                document.write("Morning, sunshine");
+                break;
+            case (currentHour === 12):
+                document.write("Lunch Time");
+                break;
+            case (currentHour > 12 && currentHour < 18):
+                document.write("Fight the urge to siesta!")
+                break;
+            default:
+                document.write("Careful sparky, they'll think you're a hard worker!");
+                break;
+        }
+
+    </script>
+</head>
+<body>
+    <h1>Conditional Logic in Javascript</h1>
+
+</body>
+</html>
