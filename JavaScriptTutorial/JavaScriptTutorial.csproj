@@ -72,6 +72,9 @@
     <Content Include="Lesson10.html" />
     <Content Include="Lesson11.html" />
     <Content Include="Lesson12.html" />
+    <Content Include="Lesson13.html" />
+    <Content Include="Lesson14.html" />
+    <Content Include="Lesson15.html" />
     <Content Include="Lesson2.html" />
     <Content Include="Lesson3.html" />
     <Content Include="Lesson5.html" />
@@ -81,6 +84,11 @@
     <Content Include="Lesson9.html" />
     <Content Include="script.js" />
     <Content Include="script12.js" />
+    <Content Include="script13.js" />
+    <Content Include="script14.js" />
+    <Content Include="script15.js" />
+    <Content Include="style14.css" />
+    <Content Include="style15.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
