@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="another.js" />
+    <Content Include="C9JS_18.html" />
+    <Content Include="C9JS_19.html" />
+    <Content Include="C9JS_20.html" />
     <Content Include="HelloWorld.html" />
     <Content Include="Lesson10.html" />
     <Content Include="Lesson11.html" />
@@ -75,6 +78,8 @@
     <Content Include="Lesson13.html" />
     <Content Include="Lesson14.html" />
     <Content Include="Lesson15.html" />
+    <Content Include="Lesson16.html" />
+    <Content Include="Lesson17.html" />
     <Content Include="Lesson2.html" />
     <Content Include="Lesson3.html" />
     <Content Include="Lesson5.html" />
@@ -87,14 +92,21 @@
     <Content Include="script13.js" />
     <Content Include="script14.js" />
     <Content Include="script15.js" />
+    <Content Include="script16.js" />
+    <Content Include="script17.js" />
+    <Content Include="script18.js" />
+    <Content Include="script19.js" />
+    <Content Include="script20.js" />
     <Content Include="style14.css" />
     <Content Include="style15.css" />
+    <Content Include="style16.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data19.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
